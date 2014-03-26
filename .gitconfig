@@ -1,0 +1,19 @@
+[user]
+	name = Michael Ruschak
+	email = mike@mikeruschak.com
+[core]
+	pager = cat
+	editor = vim
+	excludesfile = /Users/mruschak/.gitignore
+[alias]
+	co = checkout
+	branches = branch -a
+	remotes = remote -v
+	tags = tag -l
+	po = push origin
+	fo = fetch origin
+	st = status
+	stat = status
+	uns = reset HEAD
+	unstage = reset HEAD
+	cm = commit -m
